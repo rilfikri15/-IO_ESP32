@@ -28,4 +28,4 @@ Jika anda ingin lebih lanjut mengetahui code dan video langkah-langkahnya, anda 
 <p>Inti dari penggunaan FreeRTOS dalam kode ini terletak pada struktur loop tak terbatas (for (;;)) di dalam setiap fungsi Task dan pemanfaatan vTaskDelay(). Alih-alih mengunci sistem, vTaskDelay() berfungsi untuk menyerahkan kontrol kembali ke scheduler FreeRTOS setelah setiap iterasi, memastikan bahwa task lain mendapat kesempatan untuk dieksekusi. Ini menciptakan lingkungan non-blocking di mana OLED dapat diperbarui, Servo dapat bergerak, dan nilai Potensiometer dapat dibaca secara serentak, membuktikan kemampuan FreeRTOS dalam mengelola sumber daya dan waktu secara efektif.</p><br>
 
 Berikut Hasil Program seluruh Task Peripheral di ESP32-S3 pada simulasi Wokwi:<br>
-
+![Image](https://github.com/user-attachments/assets/ad752676-cab1-4c85-ba46-8475105fb4e1)
